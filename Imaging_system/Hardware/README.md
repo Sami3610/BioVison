@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Biovision Imaging System's hardware suite for diverse and challenging conditions encountered in urban environments ensures the capture of high-quality visual data that is crucial for in-depth and comprehensive ecological analysis. This robust suite encompasses a carefully curated selection of components, each chosen for its reliability, performance, and contribution to the system's overall goal of creating an unparalleled urban vegetation mapping solution. Key components of this sophisticated hardware setup include:
+Welcome to the overview of the Hardware Components of the BioVision Imaging System. Detailed insights into the sophisticated hardware suite, that powers our urban vegetation mapping solution, are provided in this document. Designed for operation in diverse and challenging urban environments, high-quality visual data essential for comprehensive ecological analysis is captured by our system. Descriptions and visual representations of each key component, demonstrating their role and significance in achieving the system's objectives, will be found below
 
 ![Biovision Imaging System Hardware Setup](./Images/hardware_components.JPG)
 
