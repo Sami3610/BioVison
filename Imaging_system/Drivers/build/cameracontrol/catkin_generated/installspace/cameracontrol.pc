@@ -1,0 +1,8 @@
+prefix=/home/aaeon/Desktop/TestCamera/install
+
+Name: cameracontrol
+Description: Description of cameracontrol
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

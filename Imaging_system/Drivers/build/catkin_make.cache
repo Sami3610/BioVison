@@ -1,0 +1,2 @@
+cameracontrol
+-DCATKIN_DEVEL_PREFIX=/home/aaeon/Desktop/TestCamera/devel -DCMAKE_INSTALL_PREFIX=/home/aaeon/Desktop/TestCamera/install -G Unix Makefiles
