@@ -59,7 +59,7 @@ for filename in os.listdir(input_dir):
     # Loop over the detected objects and blur them in the image
     for bbox, class_label in zip(bboxes, class_labels):
         # Blur objects with class labels of "person" or "car"
-        if class_label in ["Tree"]:
+        if class_label in ["person", "car"]:
             img = blur(img, bbox.astype(int))
 
     # Save the output image
