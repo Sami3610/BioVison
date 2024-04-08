@@ -5,8 +5,8 @@ import imutils
 import cv2
 import os
 
-input_folder = "D:/all_cambridge/09222023/images"
-output_folder = "C:/Python-environments/blur.detection/output"
+input_folder = "......./images"
+output_folder = "........../output"
 
 for filename in os.listdir(input_folder):
     input_path = os.path.join(input_folder, filename)
