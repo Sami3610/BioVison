@@ -32,7 +32,7 @@ You can install these dependencies using pip:
 ## Running the Script
 To run the script, use the following command in your terminal or command prompt:
 
-"python ncc_image_filter.py"
+"python modify_NCC.py"
 
 The script processes all images in the image_folder, compares them, and relocates the similar ones to the output_folder.
 
