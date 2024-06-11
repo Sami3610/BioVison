@@ -40,9 +40,11 @@ The script will process all images in the source_folder, compare them for simila
 
 After running, you'll find images considered duplicates moved to the duplicate_folder, each renamed with its MSE value for reference. The terminal will also print comparisons being made, along with their MSE values:
 
-"Comparing image1.jpg and image2.jpg: MSE = 30.5
-Comparing image1.jpg and image3.jpg: MSE = 60.2
-..."
+|A|./Filters/Images/RepA1.jpg|AND|./Filters/Images/RepA2.jpg| MSE Value=8.89 |
+|B|./Filters/Images/RepB1.jpg|AND|./Filters/Images/RepB2.jpg| MSE Value=103.7|
+|C|./Filters/Images/RepC1.jpg|AND|./Filters/Images/RepC2.jpg| MSE Value=12.42|
+|D|./Filters/Images/RepD1.jpg|AND|./Filters/Images/RepD2.jpg| MSE Value=93.25|
+
 
 ## Contributing
 

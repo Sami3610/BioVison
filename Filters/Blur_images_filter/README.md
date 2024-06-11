@@ -8,7 +8,11 @@ To combat this issue and ensure the integrity of image datasets, two sophisticat
 
 - Fast Fourier Transform (FFT) Technique: This technique transforms an image from its spatial domain to the frequency domain, enabling the identification of blurred images through the analysis of frequency components. Blurred images exhibit a lack of high-frequency components, which are indicative of sharp edges and details. The FFT technique efficiently discriminates between clear and blurred images based on their frequency spectra.
 
+![FFT Process](./Filters/Images/FFT.JPG)
+
 - Laplacian Variance Technique: By applying the Laplacian operator—a second-order derivative method that highlights areas of rapid intensity change indicative of edges—this technique calculates the variance of the Laplacian to assess image quality in terms of blur. Images with low Laplacian variance are classified as blurred and are thus filtered out from the dataset.
+
+![Laplacian operator applied to a 9x9 pixel matrix](./Filters/Images/Laplacian-variance.jpg)
 
 ## Directory Structure
 

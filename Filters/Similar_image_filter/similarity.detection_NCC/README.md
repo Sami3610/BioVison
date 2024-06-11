@@ -40,10 +40,10 @@ The script processes all images in the image_folder, compares them, and relocate
 
 Upon execution, images identified as similar are moved to the output_folder. The script also prints the NCC values for each image comparison:
 
-
-"NCC between image1.jpg and image2.jpg: 0.92
-NCC between image1.jpg and image3.jpg: 0.85
-..."
+|A|./Filters/Images/RepA1.jpg|AND|./Filters/Images/RepA2.jpg| NCC Value=0.97|
+|B|./Filters/Images/RepB1.jpg|AND|./Filters/Images/RepB2.jpg| NCC Value=0.8 |
+|C|./Filters/Images/RepC1.jpg|AND|./Filters/Images/RepC2.jpg| NCC Value=0.9 |
+|D|./Filters/Images/RepD1.jpg|AND|./Filters/Images/RepD2.jpg| NCC Value=0.09|
 
 ## Contributing
 

@@ -97,6 +97,8 @@ To perform detection using your trained model, use the following command structu
 
 --save-txt: When included, this flag directs the script to save bounding box coordinates in a text file for each input image, which is useful for further analysis or processing.
 
+For detailed results and trained models, please refer to the [Trained Models] (./YOLOv5/Trained Models) folder containing trained models and outputs.
+
 
 
 

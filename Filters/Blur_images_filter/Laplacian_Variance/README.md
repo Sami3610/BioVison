@@ -36,6 +36,15 @@ The script processes each image in the input_folder, applying the Laplacian Vari
 
 The script saves each image into the appropriate subfolder, appending the calculated Laplacian variance to the filename for reference. This facilitates a quick review of the blur assessment for each image.
 
+|           |Images                    |Laplacian Variance Value|
+|-----------|--------------------------|------------------------|
+|Blur Image |(./Filters/Images/B1.jpg) |LP=66.89                |
+|Blur Image |(./Filters/Images/B2.jpg) |LP=72.39                |
+|Blur Image |(./Filters/Images/B3.jpg) |LP=111.06               |
+|Clear Image|(./Filters/Images/B4.jpg) |LP=87.18                |
+|Clear Image|(./Filters/Images/B5.jpg) |LP=669.03               |
+|Clear Image|(./Filters/Images/B6.jpg) |LP=1100.78              |
+
 ## Contributing
 
 Contributions to improve the Laplacian Variance blur detection script are welcome. Feel free to fork the repository, make your enhancements, and submit a pull request.

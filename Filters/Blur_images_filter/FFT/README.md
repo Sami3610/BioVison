@@ -38,6 +38,15 @@ This script processes each image in the input_folder, applies FFT to determine t
 
 The script outputs each image into the designated subfolder, classifying them based on their blur status. The FFT mean value is included in the filename, providing immediate insight into the blur level assessed for each image.
 
+|           |Images                    |FFT Value|
+|-----------|--------------------------|----------|
+|Blur Image |(./Filters/Images/B1.jpg) |FFT=-1.46 |
+|Blur Image |(./Filters/Images/B2.jpg) |FFT=-10.21|
+|Blur Image |(./Filters/Images/B3.jpg) |FFT=-13.49|
+|Clear Image|(./Filters/Images/B4.jpg) |FFT=19.22 |
+|Clear Image|(./Filters/Images/B5.jpg) |FFT=31.8  |
+|Clear Image|(./Filters/Images/B6.jpg) |FFT=41.64 |
+
 ## Contributing
 
 We welcome contributions, improvements, and bug fixes. Feel free to fork the repository, make your changes, and submit a pull request for review.
