@@ -6,15 +6,15 @@ Within this folder, we introduce three specialized filtering techniques, each de
 
 - Blur Images Filter: Targets and removes blurred images, which may result from camera movement, improper focus, or environmental factors, ensuring the dataset comprises only sharp and clear images.
 
-![Blur Images] (./Images/Blur1.jpeg) (./Images/Blur2.jpeg)
+![Blur Images](./Images/Blur1.jpeg)(./Images/Blur2.jpeg)
 
 - Privacy Protection Filter: Identifies and blurs out sensitive information within images, such as faces and license plates, addressing privacy concerns and adhering to ethical standards.
 
-![Privacy Information Image] (./Images/BPrivacy.jpg)
+![Privacy Information Image](./Images/BPrivacy.jpg)
 
 - Similar Images Filter: Detects and filters out nearly identical images, reducing redundancy and focusing the dataset on unique visual data.
 
-![Similar Images] (./Images/Similar.gif) 
+![Similar Images](./Images/Similar.gif) 
 
 ## Directory Structure
 
