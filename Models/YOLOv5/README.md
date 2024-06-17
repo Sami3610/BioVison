@@ -21,17 +21,20 @@ This section details the steps required to set up your environment and start tra
 
 Begin by installing the Ultralytics package directly via pip, which is useful for other Ultralytics utilities, followed by cloning the YOLOv5 repository and installing its dependencies:
 
+```bash
 pip install ultralytics  # Install Ultralytics package
 git clone https://github.com/ultralytics/yolov5  # Clone YOLOv5 repository
 cd yolov5
 pip install -r requirements.txt  # Install dependencies
+```
 
 * Basic Training Configuration
 
 For basic training, you will run the YOLOv5 training script with the following parameters, which can be adjusted based on your specific requirements:
 
-"python train.py --data coco.yaml --epochs 300 --weights yolov5s.pt --cfg yolov5n.yaml --batch-size 128
-"
+```bash
+python train.py --data coco.yaml --epochs 300 --weights yolov5s.pt --cfg yolov5n.yaml --batch-size 128
+```
 
 - Weights: Choose from [yolov5n.pt, yolov5s.pt, yolov5m.pt, yolov5l.pt, yolov5x.pt] depending on the size and capacity of the model you intend to train.
 
@@ -43,7 +46,9 @@ For basic training, you will run the YOLOv5 training script with the following p
 
 For transfer learning, specify the path to your pre-trained model in the weights argument:
 
-"python train.py --data coco.yaml --epochs 100 --weights path/to/your/pretrained_model.pt --cfg yolov5s.yaml --batch-size 32"
+```bash
+python train.py --data coco.yaml --epochs 100 --weights path/to/your/pretrained_model.pt --cfg yolov5s.yaml --batch-size 32
+```
 
 Replace path/to/your/pretrained_model.pt with the actual file path of your pre-trained model.
 
@@ -52,11 +57,14 @@ When you need to freeze layers during training:
 
 ** Freezing Backbone Layers:
 
-"python train.py --data coco.yaml --epochs 100 --weights yolov5s.pt --cfg yolov5s.yaml --batch-size 32 --freeze 10"
-
+```bash
+python train.py --data coco.yaml --epochs 100 --weights yolov5s.pt --cfg yolov5s.yaml --batch-size 32 --freeze 10
+```
 ** Freezing All Layers:
 
-"python train.py --data coco.yaml --epochs 100 --weights yolov5s.pt --cfg yolov5s.yaml --batch-size 32 --freeze 24"
+```bash
+python train.py --data coco.yaml --epochs 100 --weights yolov5s.pt --cfg yolov5s.yaml --batch-size 32 --freeze 24"
+```
 
 Adjust the --freeze value based on the number of layers you wish to freeze. For example, --freeze 10 for freezing early layers and --freeze 24 to almost freeze all layers, depending on the model architecture.
 
@@ -68,7 +76,9 @@ After setting up your model configuration as described above, run the training c
 
 After training your models, it's crucial to assess their performance to ensure they meet your project's accuracy and efficiency standards. The validation step uses a separate set of data to evaluate the model and is executed with the following command:
 
-"python val.py --weights 'path/to/trained-model.pt' --data /path/to/data.yaml --img 640"
+```bash
+python val.py --weights 'path/to/trained-model.pt' --data /path/to/data.yaml --img 640"
+```
 
 * Validation Parameters Explained
 
@@ -89,7 +99,9 @@ After training and validating your models, the next step is to use them for obje
 
 To perform detection using your trained model, use the following command structure in your terminal:
 
-"python detect.py --source 'images_folder_location' --weights 'trained_model.pt' --save-txt"
+```bash
+python detect.py --source 'images_folder_location' --weights 'trained_model.pt' --save-txt"
+```
 
 --source: Specifies the location of the source images or video files where the model will perform detection. Replace 'images_folder_location' with the path to your data. This can be a path to a folder containing images, a single image, a video file, or even a URL to a webcam.
 
