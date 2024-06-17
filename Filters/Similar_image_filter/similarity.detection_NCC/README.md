@@ -15,8 +15,9 @@ Ensure Python (version 3.6 or later) is installed on your system. This script re
 
 You can install these dependencies using pip:
 
-
-"pip install opencv-python numpy"
+```bash
+pip install opencv-python numpy
+```
 
 ## Installation
 
@@ -32,7 +33,9 @@ You can install these dependencies using pip:
 ## Running the Script
 To run the script, use the following command in your terminal or command prompt:
 
-"python modify_NCC.py"
+```bash
+python modify_NCC.py
+```
 
 The script processes all images in the image_folder, compares them, and relocates the similar ones to the output_folder.
 

@@ -19,7 +19,9 @@ Ensure you have the following installed:
 
 You can install the necessary Python packages using pip:
 
+```bash
 "pip install opencv-python torch"
+```
 
 For YOLOv5, it will be loaded dynamically via the script using torch.hub.
 
@@ -33,7 +35,9 @@ For YOLOv5, it will be loaded dynamically via the script using torch.hub.
 
 Execute the script using the following command:
 
-"python privacy_bluring.py"
+```bash
+python privacy_bluring.py
+```
 
 The script processes images in the input_dir, detects objects using the YOLOv5 model, and applies a Gaussian blur to the regions containing identified personal information. The processed images are then saved to the output_dir.
 

@@ -15,7 +15,9 @@ Ensure you have Python installed (version 3.6 or newer is recommended). The scri
 
 Install these packages using pip if you haven't already:
 
-"pip install Pillow numpy"
+```bash
+pip install Pillow numpy
+```
 
 ## Installation
 
@@ -32,7 +34,9 @@ Install these packages using pip if you haven't already:
 
 Execute the script in your terminal or command prompt:
 
-"python modified_MSE.py"
+```bash
+python modified_MSE.py
+```
 
 The script will process all images in the source_folder, compare them for similarity, and move the similar images to the duplicate_folder.
 

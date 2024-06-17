@@ -18,7 +18,9 @@ This folder contains a script that applies the FFT to automatically identify blu
 
 You can install the required libraries using pip:
 
-"pip install opencv-python imutils numpy matplotlib"
+```bash
+pip install opencv-python imutils numpy matplotlib"
+```
 
 ## Installation
 
@@ -30,7 +32,9 @@ You can install the required libraries using pip:
 
 Execute the script from your terminal or command prompt:
 
-"python modified_fft.code.py"
+```
+python modified_fft.code.py"
+```
 
 This script processes each image in the input_folder, applies FFT to determine the blur level based on the defined threshold, and sorts the images into "Blur.Images" or "Clear.Images" within the output_folder, appending the FFT mean value to the filename for easy reference.
 

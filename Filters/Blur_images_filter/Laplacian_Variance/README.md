@@ -17,7 +17,9 @@ Ensure you have the following installed on your system:
 
 The OpenCV library can be installed via pip:
 
-"pip install opencv-python"
+```bash
+pip install opencv-python
+```
 
 ## Installation
 
@@ -28,7 +30,9 @@ The OpenCV library can be installed via pip:
 
 To execute the script, navigate to the directory containing the script in your terminal or command prompt and run:
 
-"python laplacian.code.py"
+```bash
+python laplacian.code.py
+```
 
 The script processes each image in the input_folder, applying the Laplacian Variance technique to determine the level of blur. Based on the calculated Laplacian variance, images are sorted into "Blur.Images" or "Clear.Images" within the output_folder.
 
