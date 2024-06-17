@@ -41,7 +41,8 @@ The script processes images in the input_dir, detects objects using the YOLOv5 m
 
 The script automatically blurs detected faces and license plates in the input images, ensuring they conform to privacy standards. Detected objects labeled as "person" or "car" are specifically targeted for blurring.
 
-![Example of outputs](./Filters/Images/Privacy1.JPG) (./Filters/Images/Privacy2.JPG)
+![Example of outputs](./Filters/Images/Privacy1.JPG)
+![Example of outputs](./Filters/Images/Privacy2.JPG)
 
 ## Contributing
 
