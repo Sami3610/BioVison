@@ -40,12 +40,12 @@ The script outputs each image into the designated subfolder, classifying them ba
 
 |           |Images                    |FFT Value|
 |-----------|--------------------------|----------|
-|Blur Image |(https://github.com/Sami3610/BioVison/blob/main/Filters/Images/B1.jpg) |FFT=-1.46 |
-|Blur Image |(https://github.com/Sami3610/BioVison/blob/main/Filters/Images/B2.jpg) |FFT=-10.21|
-|Blur Image |(https://github.com/Sami3610/BioVison/blob/main/Filters/Images/B3.jpg) |FFT=-13.49|
-|Clear Image|(https://github.com/Sami3610/BioVison/blob/main/Filters/Images/B4.jpg) |FFT=19.22 |
-|Clear Image|(https://github.com/Sami3610/BioVison/blob/main/Filters/Images/B5.jpg) |FFT=31.8  |
-|Clear Image|(https://github.com/Sami3610/BioVison/blob/main/Filters/Images/B6.jpg) |FFT=41.64 |
+|Blur Image |![1](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/B1.jpg) |FFT=-1.46 |
+|Blur Image |![2](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/B2.jpg) |FFT=-10.21|
+|Blur Image |![3](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/B3.jpg) |FFT=-13.49|
+|Clear Image|![4](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/B4.jpg) |FFT=19.22 |
+|Clear Image|![5](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/B5.jpg) |FFT=31.8  |
+|Clear Image|![6](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/B6.jpg) |FFT=41.64 |
 
 ## Contributing
 
