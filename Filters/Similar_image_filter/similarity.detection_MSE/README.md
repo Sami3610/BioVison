@@ -40,6 +40,8 @@ The script will process all images in the source_folder, compare them for simila
 
 After running, you'll find images considered duplicates moved to the duplicate_folder, each renamed with its MSE value for reference. The terminal will also print comparisons being made, along with their MSE values:
 
+|   |Image 1|&|Image 2|MSE Value|
+|---|-------|-|-------|---------|
 |A|![1](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/RepA1.jpg)./|AND|![2](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/RepA2.jpg)| MSE Value=8.89 |
 |B|![3](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/RepB1.jpg)|AND|![4](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/RepB2.jpg)| MSE Value=103.7|
 |C|![5](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/RepC1.jpg)|AND|![6](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/RepC2.jpg)| MSE Value=12.42|
