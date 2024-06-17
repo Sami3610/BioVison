@@ -11,7 +11,7 @@ Within this folder, we introduce three specialized filtering techniques, each de
 
 - Privacy Protection Filter: Identifies and blurs out sensitive information within images, such as faces and license plates, addressing privacy concerns and adhering to ethical standards.
 
-![Privacy Information Image](./Images/BPrivacy.jpg)
+![Privacy Information Image](./Images/Privacy.jpg)
 
 - Similar Images Filter: Detects and filters out nearly identical images, reducing redundancy and focusing the dataset on unique visual data.
 
