@@ -38,12 +38,12 @@ The script saves each image into the appropriate subfolder, appending the calcul
 
 |           |Images                    |Laplacian Variance Value|
 |-----------|--------------------------|------------------------|
-|Blur Image |(./Filters/Images/B1.jpg) |LP=66.89                |
-|Blur Image |(./Filters/Images/B2.jpg) |LP=72.39                |
-|Blur Image |(./Filters/Images/B3.jpg) |LP=111.06               |
-|Clear Image|(./Filters/Images/B4.jpg) |LP=87.18                |
-|Clear Image|(./Filters/Images/B5.jpg) |LP=669.03               |
-|Clear Image|(./Filters/Images/B6.jpg) |LP=1100.78              |
+|Blur Image |![1](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/B1.jpg)|LP=66.89|
+|Blur Image |![2](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/B2.jpg) |LP=72.39|
+|Blur Image |![3](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/B3.jpg)|LP=111.06|
+|Clear Image|![4](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/B4.jpg) |LP=87.18 |
+|Clear Image|![5](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/B5.jpg)|LP=669.03|
+|Clear Image|![6](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/B6.jpg)|LP=1100.78|
 
 ## Contributing
 
