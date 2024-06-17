@@ -40,10 +40,12 @@ The script processes all images in the image_folder, compares them, and relocate
 
 Upon execution, images identified as similar are moved to the output_folder. The script also prints the NCC values for each image comparison:
 
-|A|./Filters/Images/RepA1.jpg|AND|./Filters/Images/RepA2.jpg| NCC Value=0.97|
-|B|./Filters/Images/RepB1.jpg|AND|./Filters/Images/RepB2.jpg| NCC Value=0.8 |
-|C|./Filters/Images/RepC1.jpg|AND|./Filters/Images/RepC2.jpg| NCC Value=0.9 |
-|D|./Filters/Images/RepD1.jpg|AND|./Filters/Images/RepD2.jpg| NCC Value=0.09|
+|   |Image 1|&|Image 2|NCC Value|
+|---|-------|-|-------|---------|
+|A|![1](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/RepA1.jpg)|AND|![2](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/RepA2.jpg)| NCC Value=0.97|
+|B|![3](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/RepB1.jpg)|AND|![4](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/RepB2.jpg)| NCC Value=0.8 |
+|C|![5](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/RepC1.jpg)|AND|![6](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/RepC2.jpg)| NCC Value=0.9 |
+|D|![7](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/RepD1.jpg)|AND|![8](https://github.com/Sami3610/BioVison/blob/main/Filters/Images/RepD2.jpg)| NCC Value=0.09|
 
 ## Contributing
 
