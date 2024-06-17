@@ -1,4 +1,4 @@
-# # Introduction
+# Introduction
 
 YOLOv8, published in 2023, is the latest iteration in the YOLO (You Only Look Once) family of object detection models, renowned for their speed and accuracy. Developed and maintained by [Ultralytics](https://github.com/ultralytics/yolov8), YOLOv8 introduces significant advancements in real-time object detection. Its architecture enhances detection performance, making it highly suitable for a variety of applications, including automated surveillance, wildlife monitoring, autonomous driving, and industrial automation. The flexibility of YOLOv8 allows for customization through different training techniques, enabling it to meet specific project needs and improve model performance across diverse datasets.
 
